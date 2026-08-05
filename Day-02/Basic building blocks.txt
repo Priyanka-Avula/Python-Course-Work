@@ -1,0 +1,82 @@
+Program
+n=10
+if n%2==0:
+print("even")
+else:
+Print("odd")
+Tokens-A smallest unit of a program
+7 types of tokens
+1.Identifier- a name variable, function, module, package etc..
+2.Operators-Arithmetic,Logical, Assignment, Relational, Membership, Identity, Comparison 
+3.Literals-values
+4.Keywords-Predefined words in python
+5.Punctators-colon, semicolon, indentation
+n-identifier
+=-operator
+10-literal
+if-keyword
+n-identifier
+%-operator
+2-identifier
+==-operator
+0-identifier
+:-punctuator
+print-identifier
+(-operator
+"even"-identifier
+)-operator
+else-keyword
+:-punctuator
+print-identifier
+(-operator
+"odd"-identifier
+)-operator
+Statement-A line of code
+Comments-used to make code readable
+1.Single line comment-# single line comment
+2.Multi line comment-'''multi
+line
+comment
+'''
+Identifier rules-1.contains uppercase, lowercase, digits, underscore
+2.No special character is allowed
+3.Does not start with digits
+4.Keywords are not allowed
+5.Python is case sensitive
+Variable-a container which is going to store the value
+keywords-35 keywords in python
+'False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+False-Boolean value
+none-used to define empty block of code
+true-Boolean value
+and-operator checks only when two values are true
+as-alias name
+assert-error detection
+async, await-asynchronous operations at the time of data fetching in fast API
+break-to terminate a loop
+class-in object oriented programming to define a blueprint of a object we use class
+continue-skip the current iteration(jumping)
+def- to define a function
+del-to delete a value
+elif, else, if-conditional statement
+while, for-looping statement
+except, try, finally-exception handling to handle errors
+from-import statements
+global, nonlocal-function scope
+import-modules
+lambda-anonymous functions
+not-logical operator
+pass-there is nothing to write inside a function
+raise-raise an error explicitly
+with-file handling
+yield-generator concept
+
+
+
+
+
+
+
+
+
+
