@@ -1,0 +1,51 @@
+Data Types:
+Numeric-Int-numbers
+Float-decimal
+Complex-imaginary value used in machine learning and deep learning
+Sequence-String-Is a collection of characters enclosed within single or double quotes.
+string properties:1. string is a immutable we cannot change with in its object reference
+2.string allows duplicates
+3.string is a ordered collection
+List-collection of elements enclosed between a []
+List Properties: 1.List is mutable we can change within its own object reference.
+2. List allow duplicates.
+3. Dynamically sized.
+4. List is a heterogenous collection of elements
+5. List is a ordered collection
+Tuple- collection of elements enclosed within ()
+Tuple properties: 1. Tuple is immutable 
+2. fixed Sized
+3. allows duplicates
+4. ordered
+5. heterogenous
+Mapping data types-Set
+Set-is a collection of elements enclosed within {}
+Set properties: 1. set is a mutable data type
+2. does not allow duplicates
+3. dynamically Sized
+4. heterogenous collection
+5. unordered
+Dictionary- is a collection of key-value pairs enclosed within a {}
+dictionary properties: 1. ordered
+2. dynamically sized
+3. mutable
+4. heterogenous
+Frozen Set-is a immutable collection of elements(same as set)
+Boolean-either true or false
+None-used to create an empty data type
+Type conversion: how to convert from one data type to another data type
+we can change only mutable data types.
+--Integer can be converted into float, string, complex, Boolean.
+--Float can be converted into int, complex, string, Boolean.
+--complex can be converted into string, Boolean.
+--string to int, float, complex can be converted only when int values are there
+--string can be converted to Boolean, list, tuple, set.
+--list can be converted into string, tuple, Boolean, set.
+--tuple can be converted to Boolean, string, set, list
+--set can be converted to string, Boolean, list, tuple.
+--dictionary can be converted to string, Boolean, list, tuple, set(only will get keys in list, tuple, set)
+--Boolean can be converted into int, float, complex
+ 
+
+
+
