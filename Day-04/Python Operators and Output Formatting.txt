@@ -1,0 +1,17 @@
+Operators
+we have 7 types of operators
+1.Arithmetic-+, -, *, /(decimal), //(int), **, %(remainder)
+2.Comparision- <, >, <=, >=, ==, != either we get True or False as output
+3.Assignment- +=, -=, *=, /=, //=, %=, *=
+4.Relational/Logical- and(all must be true), or(any one can be true), not(reverse)
+5.Membership- in, not in (in dictionary it looks only keys not for values)
+6.Identity- is, is not(checks both sharing the same object reference or not)
+7.Bitwise- &, |, ^, ~, <<, >> (it will deal with the bits) 
+Output Formatting
+--Comma- Separation Formatting
+Comma is used for getting the space
+separator is used for separating the values
+end is used to declare with what the statement should end with
+--f-strings
+--modulus 
+--Formatting
