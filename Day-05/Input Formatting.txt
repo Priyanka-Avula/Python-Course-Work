@@ -1,0 +1,13 @@
+Input Formatting
+--we have to use input() to take the input from the user
+--By default the input() considers the value as a string only
+--for integer values we have to use int(input())
+--for float values we have to use float(input())
+--for list we use split function
+--by default split() is going to separate by using ,
+--for tuple we use tuple(input().split())
+--for set we use set(input().split())
+--for converting string into int we use map()
+--map() gives only the object reference
+--again converting into int,float we have to give two parameters in which we have to convert and what to convert
+--eval() is used to get the output for what actual datatype we are giving
