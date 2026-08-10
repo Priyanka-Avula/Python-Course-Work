@@ -1,0 +1,41 @@
+Strings
+String operations
+1. concatenation-adding two strings
+2. repetition-repeating the string to multiple times 
+3. indexing-accessing a particular character
+positive indexing-indexing starts from 0 to n-1
+Negative indexing-indexing starts from -n to -1
+4. slicing-accessing a group of characters using indexing
+5. membership-checks whether the value exist or not
+String Methods
+1. len()-used to find the length of a string
+2. ord()-if we have a character when we have to know ASCII value 
+3. chr()-if we have ASCII value when we have to know character
+4. sorted()-sorts them in an order
+5. max()-max in the list
+6. min()-min in the list
+Case Conversion Methods
+1. upper()-converts all into uppercase
+2. lower()-converts all into lowercase
+3. swapcase()-converts upper to lower and lower to upper
+4. capitalize()-first letter in the string will be converted to upper
+5. title()-in every word first letter will be upper
+6. casefold()
+Alignment methods
+1. center()-places the text in the center and adds whatever we have to add on both the sides adjusting the count we have given
+2. ljust()-places the text on the left
+3. rjust()-places the text on the right
+4. zfill()-fill with zeroes if the count is less than given count
+Search and find methods
+1. find()-finds the character from starting index
+2. rfind()-finds the character from right side
+3. index()-finds the starting index of character
+4. rindex()-finds the index of character from right side
+5. count()-count of characters
+Replace and Modify Methods
+1. replace()-replaces with other characters
+2. translate()-if we have to replace more character we use translate 
+Encode and Decode
+1. Encode()-text to bytes
+2. Decode()-bytes to text
+
