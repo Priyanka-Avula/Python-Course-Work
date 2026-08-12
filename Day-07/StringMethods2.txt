@@ -1,0 +1,26 @@
+Whitespace and Trimming Methods:
+1.strip()-it is going to remove the spaces on both sides of the string
+2.lstrip()-it is going to remove the spaces on left side
+3.rstrip()-it is going to remove the spaces on right side
+4.replace()-going to remove in between spaces also
+Splitting and joining Methods
+1.split()-it is going to split based on the occurrence  
+2.rsplit()-it is going to split from right side
+3.splitlines()-if we have lines it will split
+4.join()-joins the string
+5.partition()-it will be partition into right side, left side, and middle
+6.rpartition()-it will be partition into right side, left side, and middle
+ from right side
+String Testing Methods
+1.startswith()-checks whether the string starts with or not
+2.endswith()-checks whether the string ends with it or not
+3.isalpha()-checks all the characters should be alphabets
+4.isalnum()-checks all the characters should be numeric and alphabets 
+5.isspace()-checks only the empty space
+6.istitle()-checks the title case
+7.isupper()-checks all the characters are upper or not
+8.islower()-checks all the characters are lower or not
+9.isidentifier()-checks whether the identifier is valid or not
+10.isdecimal()-checks whether only the decimals
+11.isdigit()-used when we have subscript and superscript
+12.isnumeric()-used when we use roman numbers

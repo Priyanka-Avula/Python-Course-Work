@@ -1,0 +1,31 @@
+List Operations
+1. concatenation-adding two lists
+2. repetition-repeating the list to multiple times 
+3. indexing-accessing a particular character
+positive indexing-indexing starts from 0 to n-1
+Negative indexing-indexing starts from -n to -1
+4. slicing-accessing a group of characters using indexing
+5. membership-checks whether the value exist or not
+List Methods
+1.max()-to find max element
+2.min()-to find min element
+3.sorted()-sort in ascending order
+4.len()-to find length of list
+sum()-give the summation 
+Add Methods
+5.append()-adds an element at the end of the list
+6.insert()-if we want to add values in between the index values
+7.extend()-if we want to add multiple values at the end
+Remove Methods
+8.pop()-removes the element from the end we can also remove by giving index value9.remove()-we can directly give the value which we have to delete
+10.clear()-removes all elements and returns empty list
+11.del()-we can delete it by giving index values
+Search Methods
+12.index()-if we want to know the index of a value
+13.count()-counts how many times the value repeated
+Copy Methods
+14.copy()-copy the list without affecting the original list
+15.any()-any one in the list can be true
+16.all()-all the elements in the list must be true
+17.sort()-if the original list has to be affect
+18.reverse()-reverse the list
