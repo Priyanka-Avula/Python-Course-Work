@@ -1,0 +1,27 @@
+Set allows heterogenous elements but only immutable elements are allowed no mutable elements are allowed
+Set Operations
+1.Membership-check whether the element exists or not
+2.Union(| or union())-combines both the sets and removes duplicates
+3.Intersection(& or intersection())-gives only the common elements
+4.difference(- or difference())-removes the common elements and gives the elements of one set
+5.Symmetric Difference(symmetric_difference())-removes common elements in both the sets and join two sets
+6.subset(<= or issubset())-child sets of the superset
+7.superset(>= or issuperset())-parent set of the subsets
+8.disjoint(isdisjoint())-checks whether the both sets are same or not
+Set Methods
+1.sorted()-sort the set in an order
+2.min()-to find min element
+3.max()-to find max element
+4.len()-to find length of set
+5.any()-any one value should be true
+6.all()-all values should be true
+7.sum()-gives the summation value
+8.copy()-copy the set without affecting the original set it is nothing but the shallow copy
+Add Methods
+1.add()-adds the one element to the set
+2.update()-to add multiple elements
+Deletion Methods
+1.pop()-to delete the element at the last
+2.remove()-to remove a value
+3.discard()-even the item is removed we will not get any error
+4.clear()-clears all the elements

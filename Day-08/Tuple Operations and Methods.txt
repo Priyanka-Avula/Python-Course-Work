@@ -1,0 +1,18 @@
+Tuple Operations
+1. concatenation-adding two tuples
+2. repetition-repeating the tuple to multiple times 
+3. indexing-accessing a particular character
+positive indexing-indexing starts from 0 to n-1
+Negative indexing-indexing starts from -n to -1
+4. slicing-accessing a group of characters using indexing
+5. membership-checks whether the value exist or not
+Tuple Methods
+1.sorted()-sort the tuple in an order
+2.min()-to find minimum element
+3.max()-to find the maximum element
+4.len()-to find the length of the tuple
+5.sum()-to find the summation of elements
+6.index()-to know the index value
+7.count()-to check the frequency of element
+8.any()-any one value should be true
+9.all()-all the values should be true
