@@ -1,0 +1,26 @@
+Dictionary
+keys in dictionary it allows heterogenous elements but the data type mut be immutable and unique
+values can be of any datatype and allows duplicates
+Operations
+1.Membership-checks whether the value exists or not
+membership operator checks for the keys not for the values
+2.Direct Accessing-with the help of keys we have to access the values
+If we want to handle errors we can use get()-returns the prompt if we have given otherwise it executes and doesn't return any output
+Dictionary Methods
+1.data[]-if we want to add single value
+2.update()-if we want to add multiple values
+3.popitem()-going to delete last item
+4.pop(key)-if we want to delete particular item
+5.clear()-clears all the data
+6.del data[key]-deletes the key
+7.len()-to find the length
+8.sorted()-gives the sorted of keys
+9.data.keys()-gives only the keys
+10.data.values()-gives only the values
+11.data.items()-gives the dictionary as collection of keys and values
+12.max()-to find maximum value
+12.min()-to find minimum value
+13.copy()-to copy the original dictionary without affecting it
+14.setdefault()-get automatically updated when we not have the key if it is already present it returns the same value
+15.any()-any one value must be true
+16.all()-all the values should be true
