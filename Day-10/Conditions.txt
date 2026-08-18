@@ -1,0 +1,36 @@
+Conditional Statements
+-------------------------
+1.simple if-if we are having only one condition and one action
+2.if else-if we have one condition and two actions
+3.elif ladder-if we have more than one condition
+4.nested if-if condition another if condition
+----------------------------------------
+syntax for simple if
+if condition:
+    Statements
+----------------------------------------
+syntax for if else:
+if condition:
+    stmts(True)
+else:
+    stmts(False)
+--------------------------------------------
+syntax for elif ladder
+if condition:
+    stmts
+elif condition:
+    stmts
+elif condition:
+    stmts
+.....
+else(Optional):
+    stmts
+---------------------------------------------
+syntax for nested if
+if condition:
+    if condition:
+        stmts
+elif condition:
+    stmts
+else:
+    stmts
