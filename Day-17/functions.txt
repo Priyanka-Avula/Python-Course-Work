@@ -1,0 +1,54 @@
+Function-It is a reusable block of code used to perform a specific task
+Functions make programs easier to develop, understand, and maintain.
+Adavantges of functions
+Code Reusability-A function can be written once and used multiple times.
+Example:Shopping app: calculate_total() can be used for every customer's cart.
+
+Avoids Code Repetition-Functions prevent us from writing the same code again and again
+Example:Banking app: calculate_interest() can calculate interest for thousands of accounts.
+
+Reduces Complexity-A large program can be divided into small functions, where each function performs one task.
+Example:Food delivery app: Separate functions for login(), search_food(), place_order(), and make_payment().
+
+Improves Readability-Functions make code easier to understand because their names tell us what they do.
+Example:Delivery app: track_order() immediately tells us what that part of the program does.
+
+Easy Debugging-If an error occurs, we can check the specific function responsible for the problem.
+Example:Banking app: If the wrong balance is displayed, we can check calculate_balance().
+
+Easy Maintenance-When we need to change something, we can modify the function in one place.
+Example:Billing system: If GST changes from 18% to 20%, update calculate_tax() once.
+
+Saves Time and Effort-Functions reduce the amount of code we need to write, so development becomes faster.
+Example:Email system: A send_email() function can be called whenever an email needs to be sent.
+
+Easy Testing-Each function can be tested independently.
+Example:ATM system: Test withdraw_money() separately with different amounts.
+
+Modularity-Functions divide a program into small independent modules.
+Example:E-commerce website: Functions such as login(), add_to_cart(), payment(), and track_order().
+
+Supports Teamwork-Functions allow different programmers to work on different parts of the same project.
+Example:Banking project: One developer works on login(), another on transfer_money(), and another on loan_calculation().
+
+Provides Abstraction-We can use a function without knowing how it works internally.
+Example:ATM: We select Withdraw Money without knowing how the bank processes the transaction internally.
+
+Makes Programs Flexible-The same function can work with different inputs.
+Example:Cab booking app: calculate_fare(distance) can calculate fares for different distances.
+
+
+Types of arguments:
+1.Positional-Positional arguments are arguments passed to a function where the position/order of the values matters.
+The first value goes to the first parameter, the second value goes to the second parameter, and so on.
+
+2.Keyword-Keyword arguments are arguments passed to a function by explicitly specifying the parameter name along with its value.
+Here, the order of arguments does not matter because Python matches the values using the parameter names.
+
+3.Default-Default arguments should be passed at the end of the arguments only.
+Default arguments are arguments for which we provide a default value while defining the function.
+If the user does not provide a value for that parameter, Python automatically uses the default value.
+
+4.Variable Length-Variable-length arguments are used when we don't know in advance how many arguments will be passed to a function.
+If we use * it will be collected as a tuple
+If we use ** it will be collected as a dictionary 
